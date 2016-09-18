@@ -1,0 +1,7 @@
+#carousel img {width: 670px; height: 350px; position: absolute; top:100px; left : 200px}
+
+.cache {
+    display: none;}
+
+.active {
+    display: block;}
