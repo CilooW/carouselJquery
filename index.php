@@ -6,40 +6,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<p>On va bosser avec jQuery, c'est super !</p>
-
-<div id="carousel">
-
-        <img class="active" src="chihiro1.jpg">
-        <img class="cache" src="chihiro2.jpg">
-        <img class="cache" src="chihiro3.jpg">
-        <img class="cache" src="chihiro4.jpg">
-        <img class="cache" src="chihiro5.jpg">
-
-</div>
 
 
+<ul class="slider">
+    <li><img src="chihiro1.jpg"></li>
+    <li><img src="chihiro2.jpg"></li>
+    <li><img src="chihiro3.jpg"></li>
+    <li><img src="chihiro4.jpg"></li>
+    <li><img src="chihiro5.jpg"></li>
 
-
+</ul>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>
-    $(document).ready(function(){
-        //déclaration des variables
-        var $carousel = $(#carousel);
-        var $img = $(#carousel img);
-        var $imgactive = $()
-
-
-        $img.eq(0)
-        //$img.find('.active').removeClass("active").addClass("cache");
-        //.next().addClass("active")
-        // $carousel.append('<div class="controls"> <span class="prev">Precedent</span> <span class="next">Suivant</span> </div>');
-
-    });
-
-
-</script>
+<script type="text/javascript" src="carrousel.js"></script>
 </body>
 </html>
