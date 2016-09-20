@@ -4,7 +4,7 @@ $(document).ready(function() {
         var $slider = $('.slider'); // définit une variable avec la class attribuée au carousel > sélectionne l'élément HTML avec la class .slider
         var $slide = 'li'; // ou img si on n'a pas fait de liste > sélectionne chaque li
         var $transition_time = 1000; // 1 seconde pour passe d'un slide à un autre
-        var $time_between_slides = 1000; // reste 3 secondes
+        var $time_between_slides = 3000; // reste 3 secondes
 
 
         function slides(){
@@ -48,7 +48,7 @@ $(document).ready(function() {
         );
 
        $('#prev').click(function() {
-            //alert("coucou");
+
             moveSlide(-1);
         })
 
